@@ -4,7 +4,8 @@
 ## Basic JS
 #### var VS es6 let
 #### Event Loop
-
+#### Promise
+#### async function
 
 ## 代码性能
 #### webpack缓存配置
@@ -26,6 +27,13 @@
 ## CSS
 #### 居中问题
 #### 自适应
+
+
+## Data Science
+#### SVG
+#### Canvas
+#### D3.js
+
 
 ## Bug
 
