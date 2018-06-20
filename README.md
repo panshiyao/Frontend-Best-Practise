@@ -41,8 +41,14 @@
 - redux-thunk/redux-saga
 
 ## Network
-#### 网页请求过程（DNS/HTTP/SSL/TCP..）
+#### 网页请求过程
+Q：连接建立过程、数据交换过程、数据格式
+- DNS
+- TCP
+- HTTP
+- SSL
 #### 解决跨域
+Q：浏览器为什么要进行跨域限制？
 - postMessage
 - jsonp
 - iframe document.domain 
