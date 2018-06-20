@@ -27,8 +27,9 @@
 
 ## React
 #### 生命周期
-- constructor、componentWillMount、render、componentDidMount
-- componentWillReceiveProps、componentWillUpdate、componentDidUpdate、componentWillUnmount
+- componentWillMount、render、componentDidMount
+- componentWillReceiveProps、componentShouldUpdate、componentWillUpdate、componentDidUpdate
+- componentWillUnmount
 #### 虚拟DOM
 - 真实DOM：对象结构复杂，创建成本高
 - 虚拟DOM：维护简化版的DOM树，只对有必要的部分进行实际DOM操作
