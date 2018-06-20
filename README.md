@@ -38,7 +38,7 @@
 #### react-router
 #### redux
 - react-redux
-- redux-thunk/redux-saga
+- redux中间件
 
 ## Network
 #### 网页请求过程
