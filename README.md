@@ -16,7 +16,13 @@
 #### CSS Module
 
 ## React
-
+#### 生命周期
+#### 虚拟DOM
+#### diff算法
+#### react-router
+#### redux
+#### react-redux
+#### redux-thunk/redux-saga
 
 ## Network
 #### 网页请求过程（DNS/HTTP/SSL/TCP..）
