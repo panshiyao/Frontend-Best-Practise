@@ -9,7 +9,7 @@
 
 ## 模块化
 #### AMD vs CMD
-#### require.js
+#### CommonJS
 #### ES6 import
 #### CSS Module
 
@@ -30,6 +30,7 @@
 - componentWillMount、render、componentDidMount
 - componentWillReceiveProps、shouldComponentUpdate、componentWillUpdate、componentDidUpdate
 - componentWillUnmount
+#### setState为什么不同步更新state？
 #### 虚拟DOM
 - 真实DOM：对象结构复杂，创建成本高
 - 虚拟DOM：维护简化版的DOM树，只对有必要的部分进行实际DOM操作
