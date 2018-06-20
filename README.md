@@ -7,18 +7,23 @@
 #### Promise💌
 #### async function💌
 
+## 模块化
+#### AMD vs CMD
+#### require.js
+#### ES6 import
+#### CSS Module
+
 ## 代码性能
 #### 缓存配置
 - html no-cache
 - contenthash
 - CommonsChunkPlugin
 #### 按需加载
-require.ensure
-async await
+- require.ensure
+- async await
 #### 服务端加载
 #### 使用CDN
 #### Script异步加载/懒加载
-#### CSS Module
 
 ## React
 #### 生命周期
