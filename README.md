@@ -6,6 +6,7 @@
 #### Event Loop💌
 #### Promise💌
 #### async function💌
+#### 变量提升
 
 ## 模块化
 #### AMD vs CMD
