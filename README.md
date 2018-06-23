@@ -2,77 +2,60 @@
 一些值得记录的Bug，以及一些前端的最佳实践。以下是目录，期望对你有帮助。
 
 ## Basic JS
-#### var VS es6 let
-#### Event Loop💌
-#### Promise💌
-#### async function💌
+#### 对象
+Q: 对象继承的几种方式
+Q: 遍历可枚举属性
+Q: 判断对象类型
 #### 变量提升
+#### Event Loop
+#### let vs var
+#### Promise
+#### async..await
 
-## 模块化
-#### AMD vs CMD
-#### CommonJS
-#### ES6 import
+
+## NodeJS
+#### NodeJS中间件理解
+
+
+## 系统构建
+#### 模块化方法
 #### CSS Module
-
-## 代码性能
-#### 缓存配置
-- html no-cache
-- contenthash
-- CommonsChunkPlugin
-#### 按需加载
-- require.ensure
-- async await
-#### 服务端加载
-#### 使用CDN
-#### Script异步加载/懒加载
+#### Webpack
+Q: 热启动的原理？
+Q: loader与plugin的区别？ 
+Q: CodeSpliting按需加载
 
 ## React
 #### 生命周期
-- componentWillMount、render、componentDidMount
-- componentWillReceiveProps、shouldComponentUpdate、componentWillUpdate、componentDidUpdate
-- componentWillUnmount
-#### setState为什么不同步更新state？
+Q: 虚拟DOM是在生命周期的哪一步映射成真实DOM的？
 #### 虚拟DOM
-- 真实DOM：对象结构复杂，创建成本高
-- 虚拟DOM：维护简化版的DOM树，只对有必要的部分进行实际DOM操作
+Q: 虚拟DOM为什么具有更高的性能？
 #### diff算法
+Q: 为什么在循环的时候要设置key值？
 #### react-router
+Q: React-Router如何记录路由状态？
 #### redux
-- react-redux
-- redux中间件
 
 ## Network
 #### 网页请求过程
-Q：连接建立过程、数据交换过程、数据格式
-- DNS
-- TCP
-- HTTP
-- SSL
-#### 解决跨域
+Q：各协议层的连接建立过程、数据交换过程、数据格式
+#### 跨域
 Q：浏览器为什么要进行跨域限制？
-- postMessage
-- jsonp
-- iframe document.domain 
+Q: 跨域方法
 #### 缓存
-- Cache-Control
-- ETag
-- Expires
-- If-Modified-Since
+Q: 跨域相关的方法
 #### Cookie
+Q: cookie具有哪些属性？
 #### WebSocket
 
 ## CSS
 #### 居中问题
-- flex
-- table-cell
+Q: 实现垂直居中的方式？
 #### 多屏适配方案
-- rem
-- scale 
-- onresize
+Q: rem与px的区别？
 #### Less vs Scss
 #### 盒模型
 #### BFC
-#### 定位问题
 
 
 ## Data Science
@@ -84,6 +67,7 @@ Q：浏览器为什么要进行跨域限制？
 ## Bug
 
 
-## 算法
-#### 防抖＆节流💌
-#### 深拷贝💌
+## 实现
+#### 防抖＆节流
+#### 深拷贝
+#### 懒加载
