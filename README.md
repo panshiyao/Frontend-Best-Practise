@@ -2,47 +2,57 @@
 一些值得记录的Bug，以及一些前端的最佳实践。以下是目录，期望对你有帮助。
 
 ## Basic JS
-#### 对象
-- 对象继承的几种方式
-- 遍历可枚举属性
-- 判断对象类型
+#### 对象👈
+- 对象继承的几种方式？
+- 遍历可枚举属性？
+- 判断对象类型？
+#### 字符串操作👈
+#### 数组操作👈
 #### 变量提升
 #### Event Loop
+- JS Event Loop
+- NodeJS Event Loop
 #### let vs var
 #### Promise & async
 
-
 ## NodeJS
-#### NodeJS中间件理解
+#### Express中间件
 
 
-## 系统构建
-#### 模块化方法
+## 工程化
+#### 模块化
+- CommonJS
+- Requirejs
+- import/export
 #### CSS Module
 #### Webpack
-- 热启动的原理？
-- loader与plugin的区别？ 
-- CodeSpliting按需加载
+- 热更新的原理？👈
+- loader与plugin的区别？👈
+- CodeSpliting按需加载？
+#### CSS预处理&后处理
+- postcss的作用？👈
 
 ## React
 #### 生命周期
-- 虚拟DOM是在生命周期的哪一步映射成真实DOM的？
+- 虚拟DOM是在生命周期的哪一步映射成真实DOM的？👈
 #### 虚拟DOM
 - 虚拟DOM为什么具有更高的性能？
 #### diff算法
 - 为什么在循环的时候要设置key值？
 #### react-router
-- React-Router如何记录路由状态？
+- React-Router如何记录路由状态？👈
 #### redux
 
 ## Network
 #### 网页请求过程
-- 各协议层的连接建立过程、数据交换过程、数据格式
+- 各协议层的连接建立过程、数据交换过程、数据格式？👈
+- HTTPS的原理？👈
 #### 跨域
 - 浏览器为什么要进行跨域限制？
-- 跨域方法
+- 跨域方法？
 #### 缓存
-- 跨域相关的方法
+- 缓存相关的http头？
+- http是无状态协议，怎么保存用户登录状态？
 #### Cookie
 - cookie具有哪些属性？
 #### WebSocket
