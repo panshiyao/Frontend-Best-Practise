@@ -9,9 +9,7 @@
 #### 字符串操作👈
 #### 数组操作👈
 #### [变量提升](https://github.com/creeperyang/blog/issues/16)
-#### Event Loop
-- JS Event Loop
-- NodeJS Event Loop
+#### [Event Loop](https://github.com/creeperyang/blog/issues/26)
 #### let vs var
 #### Promise & async
 
