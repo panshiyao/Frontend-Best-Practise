@@ -4,11 +4,11 @@
 ## Basic JS
 #### 对象👈
 - [对象的继承与原型链](https://github.com/panshiyao/Frontend-Best-Practise/issues/1)
-- 使用for..in/Object.keys遍历可枚举属性？
+- [遍历对象的自有属性、原型链上的可枚举属性](https://segmentfault.com/a/1190000007908692?_ea=1493826)
 - 如何判断对象类型？
 #### 字符串操作👈
 #### 数组操作👈
-#### 变量提升
+#### [变量提升](https://github.com/creeperyang/blog/issues/16)
 #### Event Loop
 - JS Event Loop
 - NodeJS Event Loop
