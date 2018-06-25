@@ -4,8 +4,8 @@
 ## Basic JS
 #### 对象👈
 - [对象的继承与原型链](https://github.com/panshiyao/Frontend-Best-Practise/issues/1)
-- [遍历对象的自有属性、原型链上的可枚举属性](https://segmentfault.com/a/1190000007908692?_ea=1493826)(注：for..in可以与hasOwnProperty连用)
-- 如何判断对象类型？ foo instanceof Function
+- [对象的遍历](https://segmentfault.com/a/1190000007908692?_ea=1493826)
+- 如何获取对象自身的可枚举属性？如何判断对象是某个类的实例？
 #### 字符串操作👈
 #### 数组操作👈
 #### [变量提升](https://github.com/creeperyang/blog/issues/16)
@@ -24,11 +24,12 @@
 - import/export
 #### CSS Module
 #### Webpack
-- 热更新的原理？👈
-- loader与plugin的区别？👈
+- [热更新的原理？](https://www.jianshu.com/p/652fbae768bf)👈
+- [loader与plugin的区别，为什么要设置一个loader？](http://www.imweb.io/topic/59324940b9b65af940bf58ae)👈
 - CodeSpliting按需加载？
+- 如何提升webpack的打包速度？
 #### CSS预处理&后处理
-- postcss的作用？👈
+- [postcss的作用？](https://segmentfault.com/a/1190000011595620)👈
 
 ## React
 #### 生命周期
