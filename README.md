@@ -97,7 +97,7 @@
 #### 栈与队列
 #### [链表](https://segmentfault.com/a/1190000010345293)
 - [反转链表](https://github.com/panshiyao/Frontend-Best-Practise/issues/5)
-#### 二叉树
+#### [二叉树](https://segmentfault.com/a/1190000010345441)
 - 计算二叉树的深度
 #### [递归](https://github.com/panshiyao/Frontend-Best-Practise/issues/4)
 - 斐波那契数列
