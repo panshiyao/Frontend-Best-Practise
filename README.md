@@ -27,6 +27,8 @@
 
 
 ## NodeJS
+#### 文件操作
+- Node动态读取文件路径并创建路由（注意嵌套，需要用到栈）
 
 
 ## 工程化
@@ -48,6 +50,7 @@
 ## React
 #### 生命周期
 - 虚拟DOM是在生命周期的哪一步映射成真实DOM的
+- setState都做什么操作？
 #### 虚拟DOM
 - 虚拟DOM为什么具有更高的性能
 #### diff算法
@@ -63,7 +66,7 @@
 - 浏览器为什么要进行跨域限制
 - 跨域方法
 #### 缓存
-- 缓存相关的http头
+- 缓存相关的http头（Cache-control, Expires, E-tag,If-None-Match, Last-Modify这些都在什么时候用）✨
 - http是无状态协议，怎么保存用户登录状态
 #### Cookie
 - cookie具有哪些属性
@@ -75,6 +78,8 @@
 #### 多屏适配方案
 - rem与px
 #### Less vs Scss
+#### flex
+- flex实现流式布局
 #### 盒模型
 #### BFC
 
@@ -105,7 +110,7 @@
 - 一个人上台阶可以上一步也可以上两步，问他走10级台阶有多少种走法
 - 汉诺塔
 - 乌龟寻路径
-
+#### 判断一个字符串是不是回文字符串
 
 ## 计算机网络
 #### [堆内存与栈内存](https://github.com/panshiyao/Frontend-Best-Practise/issues/3)
