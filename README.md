@@ -105,8 +105,10 @@
 - [反转链表](https://github.com/panshiyao/Frontend-Best-Practise/issues/5)
 #### [二叉树](https://segmentfault.com/a/1190000010345441)
 - 计算二叉树的深度
+- 反转二叉树
+- 二叉树排序
 #### [递归](https://github.com/panshiyao/Frontend-Best-Practise/issues/4)
-- 斐波那契数列
+- [斐波那契数列](https://juejin.im/post/5b2a5daa51882574b72f0bef)
 - 求一个数的阶乘
 - 一个人上台阶可以上一步也可以上两步，问他走10级台阶有多少种走法
 - 汉诺塔
