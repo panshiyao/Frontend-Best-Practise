@@ -23,6 +23,7 @@
 - 基础类型（String/Null/Undefined/Boolean/Number/Symbol）与引用类型（Object）
 - 栈内存与堆内存
 - 垃圾回收机制
+#### bind、apply、call的区别
 
 
 
