@@ -119,8 +119,7 @@
 - 实现反转数组
 
 ## 计算机网络
-#### [堆内存与栈内存](https://github.com/panshiyao/Frontend-Best-Practise/issues/3)
-#### 虚拟机、实体机和宿主机
+#### 进程与线程
 #### 容器（docker）
 #### 云技术
 #### 数据库（Redis、Postgres、Cassandra）
