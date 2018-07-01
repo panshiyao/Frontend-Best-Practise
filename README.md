@@ -121,6 +121,21 @@
 ## 计算机网络
 #### 进程与线程
 #### 容器（docker）
-#### 云技术
-#### 数据库（Redis、Postgres、Cassandra）
+- [容器与虚拟机的区别](https://www.zhihu.com/question/48174633)
+> 虚拟机更擅长于彻底隔离整个运行环境。例如，云服务提供商通常采用虚拟机技术隔离不同的用户。而Docker通常用于隔离不同的应用，例如前端，后端以及数据库。
+
+> 虚拟机之间完全独立，独立的应用系统和操作系统，有当前虚拟机自己的操作系统内核；Docker将各种应用程序和他们所依赖的运行环境打包成标准的容器,容器之间隔离，容器之间共享操作系统内核
+
+> 例如一个典型的Docker应用场景是当主机上的Docker实例属于单一用户的情况下，在保证安全的同时可以充分发挥Docker的技术优势。对于隔离要求较高的环境如混合用户环境，就可以使用服务器虚拟化技术。
+- [docker部署方案](https://zhuanlan.zhihu.com/p/26517832)
+#### [数据库（Redis、Postgres、Cassandra）](https://www.jianshu.com/p/46d01f6108ec)
+- 关系型数据库：
+  - MongoDB 亿量级数据，bson数据格式
+  - [Redis 内存中存储，容易丢数据，可以做缓存](https://www.jianshu.com/p/249defad8592)
+  - Cassandra 读取性能更好
+- 非关系型数据库(Not-Only-Sql)：基于键值对、可扩展、无事务
+  - MySQL 百万量级
+  - Post-Gress-Q-L 比MySQL少了很多坑，jsonb数据格式
+  - Hadoop 批量计算、数据挖掘
 #### Linux
+#### 部署服务
