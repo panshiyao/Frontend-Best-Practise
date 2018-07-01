@@ -13,8 +13,10 @@
 #### 数组操作
 - splice(index. delNum, addItem) 返回被删除对象的数组
 - slice(start, end) 截取数组，不改变原来的数组
-#### [变量提升](https://github.com/creeperyang/blog/issues/16)
-#### [Event Loop](https://github.com/creeperyang/blog/issues/26)
+#### 变量提升
+- [函数声明和变量声明总是会被移动到它们所在的作用域的顶部](](https://github.com/creeperyang/blog/issues/16))
+#### Event Loop
+- [setTimeout与setImmdiate](https://github.com/creeperyang/blog/issues/26)
 - [帮助理解执行栈、模块和任务队列三个概念](https://mp.weixin.qq.com/s?__biz=MzI1MTE2NTE1Ng==&mid=2649515867&idx=1&sn=971a3e41da08ddf2da200d9d07af0fb0&chksm=f1efe7d0c6986ec688a746ece15f52c8df78bca37ca2609e75199f5c3fbbabd3fbcc00179885&scene=0&key=564c3e9811aee0abcc036cb111e6e7bdbe3938a8756b5bf3b98a1696b2f16c1e6e3a1b4af159d1ae1dd3e71ee5fae4e0b6655bd9f37cc81efb1174bf3ef39b43f874bc6a0482348422cc5245dfae917f&ascene=0&uin=MzIxNTY1NTU=&devicetype=iMac+MacBookPro11,1+OSX+OSX+10.12.1+build(16B2555)&version=12010210&nettype=WIFI&fontScale=100&pass_ticket=g24dIjS/70EF4QPCYwRMInMa218z6XagvevxLr5Mbzc=)
 #### let vs var
 #### Promise & async
@@ -30,7 +32,7 @@
 ## NodeJS
 #### 文件操作
 - Node动态读取文件路径并创建路由（注意嵌套，需要用到栈）
-
+#### 环境部署
 
 ## 工程化
 #### 模块化
@@ -101,13 +103,16 @@
 
 ## 算法
 #### 栈与队列
-#### [链表](https://segmentfault.com/a/1190000010345293)
+#### 链表
+- [链表的实现](https://segmentfault.com/a/1190000010345293)
 - [反转链表](https://github.com/panshiyao/Frontend-Best-Practise/issues/5)
-#### [二叉树](https://segmentfault.com/a/1190000010345441)
+#### 二叉树
+- [二叉树的实现](https://segmentfault.com/a/1190000010345441)
 - 计算二叉树的深度
 - 反转二叉树
 - 二叉树排序
-#### [递归](https://github.com/panshiyao/Frontend-Best-Practise/issues/4)
+#### 递归
+- [尾调用优化](https://github.com/panshiyao/Frontend-Best-Practise/issues/4)
 - [斐波那契数列](https://juejin.im/post/5b2a5daa51882574b72f0bef)
 - 求一个数的阶乘
 - 一个人上台阶可以上一步也可以上两步，问他走10级台阶有多少种走法
@@ -128,7 +133,8 @@
 
 > 例如一个典型的Docker应用场景是当主机上的Docker实例属于单一用户的情况下，在保证安全的同时可以充分发挥Docker的技术优势。对于隔离要求较高的环境如混合用户环境，就可以使用服务器虚拟化技术。
 - [docker部署方案](https://zhuanlan.zhihu.com/p/26517832)
-#### [数据库（Redis、Postgres、Cassandra）](https://www.jianshu.com/p/46d01f6108ec)
+#### 数据库（Redis、Postgres、Cassandra）
+- [数据库选型](https://www.jianshu.com/p/46d01f6108ec)
 - 关系型数据库：
   - MongoDB 亿量级数据，bson数据格式
   - [Redis 内存中存储，容易丢数据，可以做缓存](https://www.jianshu.com/p/249defad8592)
@@ -138,4 +144,3 @@
   - Post-Gress-Q-L 比MySQL少了很多坑，jsonb数据格式
   - Hadoop 批量计算、数据挖掘
 #### Linux
-#### 部署服务
