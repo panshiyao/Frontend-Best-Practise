@@ -65,6 +65,8 @@
 ## Network
 #### 网页请求过程
 #### HTTPS
+- [HTTP](https://juejin.im/entry/5968708b6fb9a06bbb32d6c2)
+- SSL
 #### 跨域
 - 浏览器为什么要进行跨域限制
 - 跨域方法
