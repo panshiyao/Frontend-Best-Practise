@@ -13,8 +13,10 @@
 #### [数据类型](https://segmentfault.com/a/1190000006752076)
 - 基本数据类型：Number/Null/Undefined/Boolean/String/Symbol
 - 引用数据类型：Object
-- 基本数据类型用栈存储，引用数据类型用堆存储。
+- 基本数据类型用栈存储，引用数据类型用堆存储
 - 使用instanceOf判断一个引用类型的变量具体是不是某种类型的对象
+- 使用typeof判断当前对象的原始值类型
+
 #### [变量提升](https://github.com/creeperyang/blog/issues/16)
 
 
