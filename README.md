@@ -2,33 +2,49 @@
 一些值得记录的Bug，以及一些前端的最佳实践。以下是目录，期望对你有帮助。
 
 ## Basic JS
-#### 对象
-- [对象的继承与原型链](https://github.com/panshiyao/Frontend-Best-Practise/issues/1)
-- [对象的遍历：for..in/Object.keys/getOwnProperty](https://segmentfault.com/a/1190000007908692?_ea=1493826)
-- [数据类型、判断对象实例](https://segmentfault.com/a/1190000006752076)
-- 获取对象自身的可枚举属性：for..in + hasOwnProperty
+### 对象
+#### [对象的继承与原型链](https://github.com/panshiyao/Frontend-Best-Practise/issues/1)
+通过与java等基于类的面向对象语言进行对比，从而理解new与构造函数的存在。继而理解prototype原型的概念。
+#### [对象的遍历：for..in/Object.keys/getOwnProperty](https://segmentfault.com/a/1190000007908692?_ea=1493826)
+- for..in遍历原型链上的可枚举属性
+- Object.keys遍历对象自有的可枚举属性
+- getOwnProperty遍历自身的全部属性。
+注：通过for..in结合getOwnProperty可以获取对象自身的可枚举属性。
+#### [数据类型](https://segmentfault.com/a/1190000006752076)
+- 基本数据类型：Number/Null/Undefined/Boolean/String/Symbol
+- 引用数据类型：Object
+- 基本数据类型用栈存储，引用数据类型用堆存储。
+- 使用instanceOf判断一个引用类型的变量具体是不是某种类型的对象
+
+### 变量
+#### let vs var
+let不会进行变量提升，并且作用域只在当前代码块生效
+
+#### [变量提升](https://github.com/creeperyang/blog/issues/16)
+函数内的参数变量不会被重新声明，提升顺序与声明顺序一致。
+
+
+### 数据操作
 #### 字符串操作
 - split(seperator,howmany) 将字符串分割为数组
 - slice(start, end) 截取字符串（也可以截取数组）
 #### 数组操作
 - splice(index. delNum, addItem) 返回被删除对象的数组
 - slice(start, end) 截取数组，不改变原来的数组
-#### 变量提升
-- [函数声明和变量声明总是会被移动到它们所在的作用域的顶部](](https://github.com/creeperyang/blog/issues/16))
+
+### 事件
 #### Event Loop
 - [setTimeout与setImmdiate](https://github.com/creeperyang/blog/issues/26)
 - [帮助理解执行栈、模块和任务队列三个概念](https://mp.weixin.qq.com/s?__biz=MzI1MTE2NTE1Ng==&mid=2649515867&idx=1&sn=971a3e41da08ddf2da200d9d07af0fb0&chksm=f1efe7d0c6986ec688a746ece15f52c8df78bca37ca2609e75199f5c3fbbabd3fbcc00179885&scene=0&key=564c3e9811aee0abcc036cb111e6e7bdbe3938a8756b5bf3b98a1696b2f16c1e6e3a1b4af159d1ae1dd3e71ee5fae4e0b6655bd9f37cc81efb1174bf3ef39b43f874bc6a0482348422cc5245dfae917f&ascene=0&uin=MzIxNTY1NTU=&devicetype=iMac+MacBookPro11,1+OSX+OSX+10.12.1+build(16B2555)&version=12010210&nettype=WIFI&fontScale=100&pass_ticket=g24dIjS/70EF4QPCYwRMInMa218z6XagvevxLr5Mbzc=)
-#### let vs var
+
 #### Promise & async
 - [如何实现Promise串行调用](https://github.com/panshiyao/Frontend-Best-Practise/issues/2)
-#### 数据类型与存储
-- 基础类型（String/Null/Undefined/Boolean/Number/Symbol）与引用类型（Object）
-- 栈内存与堆内存
-- 垃圾回收机制
+
 #### bind、apply、call的区别
-#### 移动端用户体验
-- 开启3D加速的方法
-- 重复点击问题
+
+### 移动端用户体验
+#### 开启3D加速的方法
+#### 重复点击问题
 
 ## NodeJS
 #### 文件操作
