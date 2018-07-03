@@ -15,8 +15,6 @@
 - 引用数据类型：Object
 - 基本数据类型用栈存储，引用数据类型用堆存储。
 - 使用instanceOf判断一个引用类型的变量具体是不是某种类型的对象
-
-### 变量
 #### [变量提升](https://github.com/creeperyang/blog/issues/16)
 
 
@@ -27,37 +25,60 @@
 #### 数组操作
 - splice(index. delNum, addItem) 返回被删除对象的数组
 - slice(start, end) 截取数组，不改变原来的数组
+#### 正则表达式
 
 ### 事件
 #### Event Loop
-- [setTimeout与setImmdiate](https://github.com/creeperyang/blog/issues/26)
-- [帮助理解执行栈、模块和任务队列三个概念](https://mp.weixin.qq.com/s?__biz=MzI1MTE2NTE1Ng==&mid=2649515867&idx=1&sn=971a3e41da08ddf2da200d9d07af0fb0&chksm=f1efe7d0c6986ec688a746ece15f52c8df78bca37ca2609e75199f5c3fbbabd3fbcc00179885&scene=0&key=564c3e9811aee0abcc036cb111e6e7bdbe3938a8756b5bf3b98a1696b2f16c1e6e3a1b4af159d1ae1dd3e71ee5fae4e0b6655bd9f37cc81efb1174bf3ef39b43f874bc6a0482348422cc5245dfae917f&ascene=0&uin=MzIxNTY1NTU=&devicetype=iMac+MacBookPro11,1+OSX+OSX+10.12.1+build(16B2555)&version=12010210&nettype=WIFI&fontScale=100&pass_ticket=g24dIjS/70EF4QPCYwRMInMa218z6XagvevxLr5Mbzc=)
+// [TODO](https://github.com/panshiyao/Frontend-Best-Practise/issues/6)
 
 #### Promise & async
-- [如何实现Promise串行调用](https://github.com/panshiyao/Frontend-Best-Practise/issues/2)
-
-#### bind、apply、call的区别
-
+- Promise.all
+- Promise.race
+- async..await
+#### bind、apply、call
+- bind 绑定this，但不立即执行
+- apply 立即执行，传参为数组
+- call 立即执行，传参为对象
 ### 移动端用户体验
 #### 开启3D加速的方法
-#### 重复点击问题
+#### 解决300ms延迟
 
 ## NodeJS
 #### 文件操作
 - Node动态读取文件路径并创建路由（注意嵌套，需要用到栈）
 #### 环境部署
+- nodemon启动服务
+- pm2进程管理
 
 ## 工程化
 #### 模块化
 - CommonJS
-- Requirejs
 - import/export
-#### Webpack
-- [热更新的原理](https://www.jianshu.com/p/652fbae768bf)
-- [loader与plugin的区别](http://www.imweb.io/topic/59324940b9b65af940bf58ae)
-- Webpack打包生命周期
-- CodeSpliting按需加载
-- 提升webpack的打包速度
+- AMD(require.js)/CMD
+
+### Webpack
+#### 生命周期
+- 执行顺序：从下到上，从右到左
+#### loader
+- css-loader
+- file-loader 处理字体图标
+- url-loader 处理图片
+- babel-loader ES6转义
+
+#### plugin
+- DefinePlugin 打包时定义全局常量
+- CommonsChunkPlugin
+- ExtractTextPlugin
+- UglifyJsPlugin
+- LoaderOptionsPlugin
+- HtmlWebpackPlugin
+
+#### [热更新的原理](https://www.jianshu.com/p/652fbae768bf)
+#### contenthash与chunkhash的区别
+#### CodeSpliting按需加载
+#### 提升webpack的打包速度
+#### webpack4
+
 #### CSS Module
 #### CSS预处理&后处理
 - Less vs Sass
