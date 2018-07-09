@@ -103,10 +103,10 @@
 #### HTTPS
 - [HTTP](https://juejin.im/entry/5968708b6fb9a06bbb32d6c2)
 - SSL
-#### 跨域
-- 浏览器为什么要进行跨域限制
-- 跨域方法
-#### Get与Post区别
+#### 🌹跨域的方法
+- postMessage
+- jsonp
+#### 🌹Get与Post区别
 
 #### 缓存
 - 缓存相关的http头（Cache-control, Expires, E-tag,If-None-Match, Last-Modify这些都在什么时候用）✨
@@ -116,8 +116,13 @@
 #### WebSocket
 
 ## CSS
-#### 居中问题
-- 实现垂直居中的方式
+#### 🌹实现居中的方法
+- flex
+- table-cell
+#### position的属性值有哪些
+- relative
+- absolute
+- fix
 #### 多屏适配方案
 - rem与px
 #### Less vs Scss
