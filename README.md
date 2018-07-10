@@ -87,6 +87,7 @@
 #### [postcss的作用](https://segmentfault.com/a/1190000011595620)
 
 ## React
+### Basic
 #### 生命周期
 - 虚拟DOM是在生命周期的哪一步映射成真实DOM的
 - setState都做什么操作？
@@ -94,9 +95,12 @@
 - 虚拟DOM为什么具有更高的性能
 #### diff算法
 - 为什么在循环的时候要设置key值
-#### react-router
-- React-Router如何记录路由状态
-#### redux
+
+### react-router
+#### hash路由
+#### react-router-redux
+
+### redux
 
 ## Network
 #### 网页请求过程
