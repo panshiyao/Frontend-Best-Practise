@@ -190,11 +190,11 @@
 #### 数据库（Redis、Postgres、Cassandra）
 - [数据库选型](https://www.jianshu.com/p/46d01f6108ec)
 - 关系型数据库：
+  - MySQL 百万量级
+  - Post-Gress-Q-L 比MySQL少了很多坑，jsonb数据格式
+  - Hadoop 批量计算、数据挖掘 
+- 非关系型数据库(Not-Only-Sql)：基于键值对、可扩展、无事务
   - MongoDB 亿量级数据，bson数据格式
   - [Redis 内存中存储，容易丢数据，可以做缓存](https://www.jianshu.com/p/249defad8592)
   - Cassandra 读取性能更好
-- 非关系型数据库(Not-Only-Sql)：基于键值对、可扩展、无事务
-  - MySQL 百万量级
-  - Post-Gress-Q-L 比MySQL少了很多坑，jsonb数据格式
-  - Hadoop 批量计算、数据挖掘
 #### Linux
