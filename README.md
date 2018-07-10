@@ -173,7 +173,7 @@
 - 实现反转字符串
 - 实现反转数组
 #### 查找
-- 二分法查找
+- [二分法查找](https://github.com/panshiyao/Frontend-Best-Practise/issues/7)
 #### 排序
 
 
