@@ -5,6 +5,7 @@
 ### 对象
 #### [对象的继承与原型链](https://github.com/panshiyao/Frontend-Best-Practise/issues/1)
 通过与java等基于类的面向对象语言进行对比，从而理解new与构造函数的存在。继而理解prototype原型的概念。
+🌹new、prototype、constructor、构造函数继承
 #### [对象的遍历：for..in/Object.keys/getOwnProperty](https://segmentfault.com/a/1190000007908692?_ea=1493826)
 - for..in遍历原型链上的可枚举属性
 - Object.keys遍历对象自有的可枚举属性
@@ -31,7 +32,7 @@
 
 ### 事件
 #### Event Loop
-// [TODO](https://github.com/panshiyao/Frontend-Best-Practise/issues/6)
+[🌹TODO](https://github.com/panshiyao/Frontend-Best-Practise/issues/6)
 
 #### Promise & async
 - Promise.all
@@ -41,9 +42,11 @@
 - bind 绑定this，但不立即执行
 - apply 立即执行，传参为数组
 - call 立即执行，传参为对象
+
 ### 移动端用户体验
+#### 首屏秒开
 #### 开启3D加速的方法
-#### 解决300ms延迟
+#### 🌹解决300ms延迟
 
 ## NodeJS
 #### 文件操作
@@ -58,7 +61,7 @@
 - import/export
 - AMD(require.js)/CMD
 
-### Webpack
+### 🌹Webpack
 #### 生命周期
 - 执行顺序：从下到上，从右到左
 #### loader
@@ -84,37 +87,34 @@
 ### CSS Module
 ### CSS预处理&后处理
 #### Less vs Sass
-#### [postcss的作用](https://segmentfault.com/a/1190000011595620)
+#### [🌹postcss的作用](https://segmentfault.com/a/1190000011595620)
 
 ## React
 ### Basic
 #### 生命周期
 - 虚拟DOM是在生命周期的哪一步映射成真实DOM的
-- setState都做什么操作？
+- 🌹setState都做什么操作？
 #### 虚拟DOM
 - 虚拟DOM为什么具有更高的性能
 #### diff算法
 - 为什么在循环的时候要设置key值
-
-### react-router
-#### hash路由
-#### react-router-redux
-
 ### redux
+- 为什么应用redux？
+- redux-saga与redux-thunk有什么不同？
 
 ## Network
 #### 网页请求过程
 #### HTTPS
 - [HTTP](https://juejin.im/entry/5968708b6fb9a06bbb32d6c2)
-- SSL
+- SSL证书是如何生效的？
 #### 🌹跨域的方法
 - postMessage
 - jsonp
 #### 🌹Get与Post区别
 
-#### 缓存
+#### 🌹缓存
 - 缓存相关的http头（Cache-control, Expires, E-tag,If-None-Match, Last-Modify这些都在什么时候用）✨
-- http是无状态协议，怎么保存用户登录状态
+- disk cache, memory cache
 #### Cookie
 - cookie具有哪些属性
 #### WebSocket
@@ -130,19 +130,10 @@
 #### 多屏适配方案
 - rem与px
 #### Less vs Scss
-#### flex
+#### 🌹flex
 - flex实现流式布局
-#### 盒模型
+#### 🌹盒模型
 #### BFC
-
-
-## Data Science
-#### SVG
-#### Canvas
-#### D3.js
-
-
-## Bug
 
 
 ## 实现
