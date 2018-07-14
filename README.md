@@ -16,7 +16,7 @@
 - for..in遍历原型链上的可枚举属性
 - Object.keys遍历对象自有的可枚举属性
 - getOwnProperty遍历自身的全部属性。
-注：通过for..in结合hasOwnProperty可以获取对象自身的可枚举属性。
+- 通过for..in结合hasOwnProperty可以获取对象自身的可枚举属性。hasOwnProperty 是 JavaScript 中唯一处理属性并且不会遍历原型链的方法。
 
 #### [变量提升](https://github.com/creeperyang/blog/issues/16)
 
