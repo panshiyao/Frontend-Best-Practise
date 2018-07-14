@@ -43,59 +43,15 @@
 - apply 立即执行，传参为数组
 - call 立即执行，传参为对象
 
-#### 模块化
+### 模块化
 - CommonJS
 - import/export
 - AMD(require.js)/CMD
 
 ### 移动端用户体验
-#### 秒开策略
-#### 开启3D加速的方法
-#### 🌹解决300ms延迟
-
-## NodeJS
-#### 文件操作
-- Node动态读取文件路径并创建路由（注意嵌套，需要用到栈）
-#### 环境部署
-- nodemon启动服务
-- pm2进程管理
-
-
-## 🌹Webpack
-#### 生命周期
-- 执行顺序：从下到上，从右到左
-#### loader
-- css-loader
-- file-loader 处理字体图标
-- url-loader 处理图片
-- babel-loader ES6转义
-
-#### plugin
-- DefinePlugin 打包时定义全局常量
-- CommonsChunkPlugin
-- ExtractTextPlugin
-- UglifyJsPlugin
-- LoaderOptionsPlugin
-- HtmlWebpackPlugin
-
-#### [热更新的原理](https://www.jianshu.com/p/652fbae768bf)
-#### contenthash与chunkhash的区别
-#### CodeSpliting按需加载
-#### 提升webpack的打包速度
-#### webpack4
-
-## React
-### Basic
-#### 生命周期
-- 虚拟DOM是在生命周期的哪一步映射成真实DOM的
-- 🌹setState都做什么操作？
-#### 虚拟DOM
-- 虚拟DOM为什么具有更高的性能
-#### diff算法
-- 为什么在循环的时候要设置key值
-### redux
-- 为什么应用redux？
-- redux-saga与redux-thunk有什么不同？
+- 秒开策略
+- 开启3D加速的方法
+- 🌹解决300ms延迟
 
 ## Network
 #### 网页请求过程
@@ -137,6 +93,53 @@
 #### CSS预处理&后处理
 #### Less vs Sass
 #### [🌹postcss的作用](https://segmentfault.com/a/1190000011595620)
+
+
+
+## React
+### Basic
+#### 生命周期
+- 虚拟DOM是在生命周期的哪一步映射成真实DOM的
+- 🌹setState都做什么操作？
+#### 虚拟DOM
+- 虚拟DOM为什么具有更高的性能
+#### diff算法
+- 为什么在循环的时候要设置key值
+### redux
+- 为什么应用redux？
+- redux-saga与redux-thunk有什么不同？
+
+## 🌹Webpack
+#### 生命周期
+- 执行顺序：从下到上，从右到左
+#### loader
+- css-loader
+- file-loader 处理字体图标
+- url-loader 处理图片
+- babel-loader ES6转义
+
+#### plugin
+- DefinePlugin 打包时定义全局常量
+- CommonsChunkPlugin
+- ExtractTextPlugin
+- UglifyJsPlugin
+- LoaderOptionsPlugin
+- HtmlWebpackPlugin
+
+#### [热更新的原理](https://www.jianshu.com/p/652fbae768bf)
+#### contenthash与chunkhash的区别
+#### CodeSpliting按需加载
+#### 提升webpack的打包速度
+#### webpack4
+
+
+
+## NodeJS
+#### 文件操作
+- Node动态读取文件路径并创建路由（注意嵌套，需要用到栈）
+#### 环境部署
+- nodemon启动服务
+- pm2进程管理
 
 
 
