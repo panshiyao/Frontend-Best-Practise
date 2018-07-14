@@ -3,20 +3,17 @@
 
 ## Basic JS
 #### [对象的继承与原型链](https://github.com/panshiyao/Frontend-Best-Practise/issues/1)
-通过与java等基于类的面向对象语言进行对比，从而理解new与构造函数的存在。继而理解prototype原型的概念。
-🌹new、prototype、constructor、构造函数继承
+- 要掌握组合继承、原型式继承的方法
+- 理解Object.create与new的不同
+- 理解prototype/__proto__/ constructor的不同概念
+- super的用法
+- 属性的获取方式 for..in全部可枚举/hasOwnProperty判断自身属性/getOwnPropertyName自身全部/Object.keys自身可枚举（=for..in + hasOwnProperty）
 #### [数据类型](https://segmentfault.com/a/1190000006752076)
 - 基本数据类型：Number/Null/Undefined/Boolean/String/Symbol
 - 引用数据类型：Object
 - 基本数据类型用栈存储，引用数据类型用堆存储
 - 使用instanceOf判断一个引用类型的变量具体是不是某种类型的对象
 - 使用typeof判断当前对象的原始值类型
-
-#### [可枚举属性](https://segmentfault.com/a/1190000007908692?_ea=1493826)
-- for..in遍历原型链上的可枚举属性
-- Object.keys遍历对象自有的可枚举属性
-- getOwnProperty遍历自身的全部属性。
-- 通过for..in结合hasOwnProperty可以获取对象自身的可枚举属性。hasOwnProperty 是 JavaScript 中唯一处理属性并且不会遍历原型链的方法。
 
 #### [变量提升](https://github.com/creeperyang/blog/issues/16)
 
