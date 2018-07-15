@@ -56,7 +56,7 @@
 #### 🌹跨域
 - postMessage
 - jsonp
-- CORS（Q1: Set-Cookie/ Q1: modify cookie）
+- CORS（设置xhr的withCredential属性为true，可以使服务端的跨域响应set-Cookie有效。前提是服务端必须同样携带Access-Allow-Control-Credential属性）
 #### 🌹Get与Post区别
 
 #### 🌹缓存
