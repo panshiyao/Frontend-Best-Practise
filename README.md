@@ -56,7 +56,7 @@
 #### 🌹跨域
 - postMessage
 - jsonp
-- CORS
+- CORS（Q1: Set-Cookie/ Q1: modify cookie）
 #### 🌹Get与Post区别
 
 #### 🌹缓存
