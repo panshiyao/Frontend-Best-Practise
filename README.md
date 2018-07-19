@@ -25,8 +25,12 @@
 - slice(start, end) 截取数组，不改变原来的数组
 #### 正则表达式
 
-#### Event Loop
-[🌹TODO](https://github.com/panshiyao/Frontend-Best-Practise/issues/6)
+#### [Event Loop](https://segmentfault.com/a/1190000011198232)
+- 浏览器内核
+- JS执行栈
+- GUI/Timer/IO/异步网络请求模块
+- 异步队列
+- NodeJS EventLoop
 
 #### 异步操作
 - Promise.all
@@ -44,22 +48,22 @@
 - import/export
 - AMD(require.js)/CMD
 
-### 移动端用户体验
-- 秒开
-- 3D加速
-- 🌹300ms延迟
 
 ## Network
 #### 网页请求过程
 #### [HTTP](https://juejin.im/entry/5968708b6fb9a06bbb32d6c2)
 #### SSL
-#### 🌹跨域
+#### 跨域
 - postMessage
 - jsonp
 - CORS（设置xhr的withCredential属性为true，可以使服务端的跨域响应set-Cookie有效。前提是服务端必须同样携带Access-Allow-Control-Credential属性）
-#### 🌹Get与Post区别
+#### Get与Post区别
+- 请求数据限制
+- 明文传输
+- 历史记录保存参数
+- 后退重新提交
 
-#### 🌹缓存
+#### 缓存
 - 缓存相关的http头（Cache-control, Expires, E-tag,If-None-Match, Last-Modify这些都在什么时候用）✨
 - disk cache, memory cache
 #### Cookie
@@ -80,17 +84,18 @@
 - rem + initialScale
 #### 🌹flex
 - 流式布局
-#### 实现一个button，当页面小于一屏时，贴底，当大于一屏时，随文档滚动
 #### CSS预处理
 - less
 - sass
 #### [后处理](https://segmentfault.com/a/1190000011595620)
 - postcss
+#### 回流与重绘
 
 ## React
 #### 生命周期
 - 虚拟DOM是在生命周期的哪一步映射成真实DOM的
-- 🌹setState都做什么操作？
+#### setState
+- 异步与同步
 #### 虚拟DOM
 - 虚拟DOM为什么具有更高的性能
 #### diff算法
@@ -99,7 +104,7 @@
 - 为什么应用redux？
 - redux-saga与redux-thunk有什么不同？
 
-## 🌹Webpack
+## Webpack
 #### 生命周期
 - 执行顺序：从下到上，从右到左
 #### loader
