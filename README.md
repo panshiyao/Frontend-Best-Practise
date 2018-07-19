@@ -94,7 +94,7 @@
 ## React
 #### 生命周期
 - 虚拟DOM是在生命周期的哪一步映射成真实DOM的
-#### setState
+#### [setState](https://segmentfault.com/a/1190000003969996)
 - 异步与同步
 #### 虚拟DOM
 - 虚拟DOM为什么具有更高的性能
