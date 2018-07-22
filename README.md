@@ -1,5 +1,11 @@
 # Frontend Best Practise
-一些值得记录的Bug，以及一些前端的最佳实践。以下是目录，期望对你有帮助。
+前端笔面试知识整理。
+
+我以前曾经反感面试，因为过程总经常会问到一些应用性很少的知识点，大多数人看面经只是为了面试而不是真正学到东西。后来经历了很多面试才想明白，和很多优秀的其他同行聊聊，可以了解到自己的知识体系中还有哪些坑需要完善。并且通过面试不是目的，只是一张入场券，它后面的优秀团队和企业文化、薪资才是你所要追求的。
+
+本篇目录最后会整理成gitbook的形式，欢迎大家贡献文章和代码。
+
+love and peace小仙女❤️~
 
 ## Basic JS
 #### [对象的继承与原型链](https://github.com/panshiyao/Frontend-Best-Practise/issues/1)
@@ -49,10 +55,10 @@
 - AMD(require.js)/CMD
 
 
-## Network
-#### 网页请求过程
-#### [HTTP](https://juejin.im/entry/5968708b6fb9a06bbb32d6c2)
-#### SSL
+## 浏览器与网络
+#### DNS/TCP/UDP
+- 一次网络请求的耗费时间
+#### HTTP/SSL
 #### 跨域
 - postMessage
 - jsonp
