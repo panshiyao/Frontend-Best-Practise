@@ -56,8 +56,11 @@ love and peace小仙女❤️~
 
 
 ## 浏览器与网络
-#### DNS/TCP/UDP
-- 一次网络请求的耗费时间
+#### [DNS/TCP/UDP](https://hit-alibaba.github.io/interview/basic/network/TCP.html)
+- [网络请求对性能的影响：Keep-Alive，负载均衡](https://juejin.im/entry/5a22ba97f265da432153db5b)
+- SYN(Synchronize Sequence Number)/ACK(Acknowledgement)
+- FIN
+
 #### HTTP/SSL
 #### 跨域
 - postMessage
@@ -77,9 +80,11 @@ love and peace小仙女❤️~
 #### WebSocket
 
 ## CSS
-#### 🌹居中的方法
+#### 居中的方法
 - flex
-- table-cell
+- table-cell多行文字垂直居中
+- absolute + translate 50%（可以在不知道元素高度的情况下实现）
+- inline-block + vertical-align: center + 伪类 height: 100%（vertical-align默认baseline基线对齐，父元素的基线是x的底边）// [为什么可以实现这个功能还需要探究](https://codepen.io/anon/pen/gjmoJx)
 #### 🌹盒模型&BFC
 #### position的属性值有哪些
 - relative
@@ -96,6 +101,11 @@ love and peace小仙女❤️~
 #### [后处理](https://segmentfault.com/a/1190000011595620)
 - postcss
 #### 回流与重绘
+#### [动画](https://css-tricks.com/almanac/properties/t/transform/)
+- scale（width/height/font-size/padding受影响）
+- skew
+- rotate
+- translate
 
 ## React
 #### 生命周期
