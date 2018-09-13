@@ -1,19 +1,18 @@
 # Frontend Best Practise
-在开发和学习中积累前端最佳实践。
+结构化的解决前端开发中遇到的问题。包括但不限于「JS基础」「CSS实现」「算法与设计模式」「性能优化」「工具」，也会不定期对项目管理、沟通，以及自身的结构化提升进行思考。
 
-会列出目录和优先级，根据优先级不断整理及完善文章。
+目标：成为一个能准确快速定位问题、解决问题的「结构化」前端工程师。
 
-欢迎贡献及提意见。
-
-love and peace小仙女❤️~
+p.s: 只有成型的文章才会发布到github上来，日常的学习总结在语雀上进行维护，更新较慢，但保证质量。
 
 ## Basic JS
-#### [对象的继承与原型链](https://github.com/panshiyao/Frontend-Best-Practise/issues/1)
-- 要掌握组合继承、原型式继承的方法
-- 理解Object.create与new的不同
-- 理解prototype/__proto__/ constructor的不同概念
-- super的用法
-- 属性的获取方式 for..in全部可枚举/hasOwnProperty判断自身属性/getOwnPropertyName自身全部/Object.keys自身可枚举（=for..in + hasOwnProperty）
+### [对象的继承与原型链](https://github.com/panshiyao/Frontend-Best-Practise/issues/1)
+**摘要：**
+理解JS领域内的继承原理，掌握**组合继承、原型式继承**的具体实现方法。
+对原型链有深刻理解，能准确说出Function/Object等复杂对象的原型。
+能够区分prototype/__proto__/constructor的不同。
+知道如何获取对象的可枚举、不可枚举、自身、原型链上的属性，及获取方法（for..in/hasOwnProperty/getOwnPropertyName/Object.keys）。
+
 #### [数据类型](https://segmentfault.com/a/1190000006752076)
 - 基本数据类型：Number/Null/Undefined/Boolean/String/Symbol
 - 引用数据类型：Object
