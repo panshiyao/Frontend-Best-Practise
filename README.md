@@ -7,42 +7,34 @@ p.s: 只有成型的文章才会发布到github上来，日常的学习总结在
 
 ## JS基础
 ### [继承与原型链](https://github.com/panshiyao/Frontend-Best-Practise/issues/1)
-**摘要：**
 理解JS领域内的继承原理，掌握**组合继承、原型式继承**的具体实现方法。
 对原型链有深刻理解，能够画出某对象直到Object->null的原型链，能够区分prototype/__proto__/constructor的不同()。
 知道如何获取对象的可枚举、不可枚举、自身、原型链上的属性，及获取方法（for..in/hasOwnProperty/getOwnPropertyName/Object.keys）。
 
 ### [对象](https://segmentfault.com/a/1190000006752076)
-**摘要：**
 清楚基本数据类型和引用数据类型，二者存储方式的不同（堆存储、栈存储）。如何判断一个对象属于某种类型，instanceOf/typeOf的不同。能够区分使用bind/apply/call、箭头函数、new、function等不同语境下，this指向的不同。
 
 ### [变量提升](https://github.com/creeperyang/blog/issues/16)
-**摘要：**
 清楚变量提升原理，函数声明和函数表达式的变量提升的不同。ES6 let对于变量提升的新特性。
 
 ### 字符串操作
-// TODO
 
 ### 数组操作
-// TODO
+
 ### 正则表达式
-// TODO
+
 
 ### [Event Loop](https://segmentfault.com/a/1190000011198232)
-**摘要：**
 理解浏览器内核的进程及线程规划。清楚一段异步代码的执行栈（事件循环机制），JS线程、GUI、Timer、IO、异步网络请求模块的具体表现。
 
 ### 异步
-**摘要：**
 清楚并能使用Promise、async...await进行异步开发。了解Promise.all/race特性。
 
 ### 模块化
-**摘要：**
 了解AMD/CMD的差别。了解CommonJS、ES6 module的差别。
 
 ## CSS
 ### 常用的居中方法
-**摘要：**
 了解常用居中方法及其兼容性。
 ### 盒模型
 了解盒模型，BFC，及margin-top collapse，margin合并等特性。
