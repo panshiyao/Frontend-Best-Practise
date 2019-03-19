@@ -1,30 +1,40 @@
 # Frontend Best Practise
-记录前端开发基础、工具使用、网络与云计算、算法、最佳性能实践、日常采坑。
-深度思考，结构化的知识管理，不只是一个前端程序媛，更是一个互联网工程师。
 
-## 前端开发基础
-### CSS
-### JS
+## JS
+### 对象及作用域（构造函数、继承、原型链、ES6对象声明&实现、getter、setter、枚举、闭包）
+### 模块化（AMD、CMD、requireJS、commonJS、ES6）
+### 异步（promise，defer、async、await）
+### 函数（箭头函数、this）
 
-
-## 工具使用
-### Charles
-### Git
-### 印象笔记
-### Nginx
+## 浏览器
+### 进程、线程
+### 渲染原理（DOM/CSSOM、回流重绘）
+### 事件循环（定时器etc）
 
 ## 网络
-### TCP/IP
 ### HTTP
-### WebSocket
+### TCP/IP
+### 缓存
+### CDN
+### Websocket
 ### Service Worker
+### XSS/CSRF/...
 
-## 算法
+## CSS
+### 浮动
+### 垂直居中
 
-## 最佳性能实践
-### HTML优化（网页渲染原理、重绘等）
-### 资源加载优化（懒加载、异步加载、缓存利用、CDN存储）
-### 首屏优化（骨架屏、服务端渲染）
-### 打包优化（按需加载）
+## 性能优化
+### 图片：WebP、png、jpg、base64
 
-## 日常采坑
+## React
+### 原理
+### 插件
+
+## Vue
+### 原理
+### 插件
+
+## 工具
+### Git
+### Nginx
