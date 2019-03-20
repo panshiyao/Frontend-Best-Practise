@@ -2,7 +2,7 @@
 前端知识手册，记录前端基础知识、网络、性能优化、主流框架的原理与实现（前端工程化内容见Fantastic-Frontend-Engineering）。
 ## JS
 javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
-### 对象及作用域（构造函数、继承、原型链、ES6对象声明&实现、getter、setter、枚举、闭包）
+### 对象及作用域（构造函数、继承、原型链、ES6对象声明&实现、getter、setter、枚举、闭包、let/const/var）
 ### 模块化（AMD、CMD、requireJS、commonJS、ES6）
 ### 异步（promise、async/await）
 ### 函数（箭头函数、this）
