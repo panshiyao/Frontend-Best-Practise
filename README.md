@@ -55,3 +55,7 @@ javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
 ## 工具
 ### Git
 ### Nginx
+
+## 其他
+### 字符集与编码
+http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html
