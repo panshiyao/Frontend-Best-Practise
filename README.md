@@ -12,11 +12,13 @@ javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
 ### 渲染原理（DOM/CSSOM、回流重绘）
 ### 事件循环（定时器etc）
 ### 内存空间
+### 同源策略
 
 ## 网络
-### HTTP
-### TCP/IP
+### HTTP1.0/2.0
+### TCP/UDP
 ### 缓存
+### 跨域
 ### CDN
 ### Websocket
 ### Service Worker
