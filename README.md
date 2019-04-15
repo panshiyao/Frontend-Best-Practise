@@ -4,7 +4,7 @@
 javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
 ### 对象及作用域（构造函数、继承、原型链、ES6对象声明&实现、getter、setter、枚举、闭包、let/const/var）
 ### 模块化（AMD、CMD、requireJS、commonJS、ES6）
-### 异步（promise、async/await）
+### 异步（promise、async/await、defer）
 ### 函数（箭头函数、this）
 ### 内存机制
 ### 事件循环（定时器etc）
@@ -58,3 +58,4 @@ javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
 ## 其他
 ### 字符集与编码
 http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html
+### md5
