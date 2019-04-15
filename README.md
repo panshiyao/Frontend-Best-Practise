@@ -3,6 +3,11 @@
 ## JS/浏览器
 javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
 ### 对象及作用域（构造函数、继承、原型链、ES6对象声明&实现、getter、setter、枚举、闭包、let/const/var）
+- 对象的声明
+- 继承
+- ES6类定义
+- 类属性的设置与遍历
+- 作用域与闭包
 ### 模块化（AMD、CMD、requireJS、commonJS、ES6）
 ### 异步（promise、async/await、defer）
 ### 函数（箭头函数、this）
