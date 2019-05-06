@@ -17,7 +17,7 @@
 - 前端工程化：webpack的打包与构建流程
 - 服务器：node服务的部署、nginx的配置
 - 使用typescript开发
-- 
+
 
 ## JS/浏览器
 javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide

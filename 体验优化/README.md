@@ -53,9 +53,6 @@
 #### 骨架图
 #### 服务端渲染
 
-## 当前大麦优秀App的标准
-
-
 ## 参考文献
 - [Google Web Fundamentals - Performance：关于Web的最佳实践-性能篇](https://developers.google.com/web/fundamentals/performance/why-performance-matters/)
 - [使用Lighthouse审查网络应用](https://developers.google.com/web/tools/lighthouse/)
