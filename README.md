@@ -9,8 +9,8 @@
 - 网页的渲染及优化
 
 成为高阶前端一定要搞懂的东西：
-- webpack的打包与构建流程
-- 常用框架的原理、优势、组件间通信
+- 前端工程化
+- 常用框架的原理、优势
 - node服务的部署
 - 使用typescript进行开发
 
@@ -24,7 +24,7 @@ javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
 - ES6类定义
 - 遍历
 ### 变量及作用域（作用域、闭包、变量提升、垃圾回收）
-### 模块化（AMD、CMD、requireJS、commonJS、ES6）
+### 模块化（AMD、CMD、requireJS、commonJS、ES6、webpack）
 ### 异步（promise、async/await、defer、generator）
 - Generator（ES6）
 ### 函数（箭头函数、this）
@@ -42,8 +42,9 @@ javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
 ### 网络攻击
 
 ## CSS
-### 浮动
+### BFC
 ### 垂直居中
+### 自适应布局的实现
 
 ## 动画
 ### requestAnimationFrame
@@ -65,7 +66,8 @@ javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
 - 服务端渲染
 - 节流与防抖
 
-## 开发
+## 前端工程化
+### CSS预/后编译器
 ### 热启动
 ### SourceMap
 
@@ -74,15 +76,17 @@ javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
 ### Diff算法
 ### Redux状态存储
 ### 路由管理
-### 跨组件通信
+### 跨组件通信（事件机制）
 ### 插件
 
 ## Vue
 ### 生命周期
+### Diff算法
 ### mixin
-### 路由管理
-### 跨组件通信
-### 插件
+### 数据绑定
+### 跨组件通信（事件机制）
+### computed原理
+### watcher原理
 
 ## 工具
 ### Git
