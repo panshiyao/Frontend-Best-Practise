@@ -1,6 +1,7 @@
 # Frontend Best Practise
 前端知识手册，记录前端基础知识、网络、性能优化、主流框架的原理与实现（前端工程化内容见Fantastic-Frontend-Engineering）。
 
+## JS
 ### 面向对象
 - 常用设计模式
 - 构造函数、原型与继承
