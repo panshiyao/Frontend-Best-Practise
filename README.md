@@ -15,7 +15,7 @@
 - generator
 - async/await
 ### 事件循环
-- 浏览器EventLoop
+- 浏览器 EventLoop
 - Node EventLoop
 
 
@@ -63,7 +63,7 @@
 - 本地存储
 
 ## 性能优化
-### 评判性能的标准
+### 测试工具
 ### 资源优化
 - 字体优化
 - 图片优化
