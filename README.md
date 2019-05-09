@@ -9,45 +9,71 @@
 - 网页的渲染及优化
 
 成为高阶前端一定要搞懂的东西：
-- 前端工程化
-- 常用框架的原理、优势
+- 前端工程化、模块化
+- 主流框架的实现原理
 - node服务的部署
-- 使用typescript进行开发
 
 
-## JS/浏览器
-javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
-### 对象（构造函数、继承、原型链、ES6对象声明&实现、getter、setter、枚举、let/const/var）
-- 设计模式概述
-- 对象的声明
-- 继承
-- ES6类定义
-- 遍历
-### 变量及作用域（作用域、闭包、变量提升、垃圾回收）
-### 模块化（AMD、CMD、requireJS、commonJS、ES6、webpack）
-### 异步（promise、async/await、defer、generator）
-- Generator（ES6）
-### 函数（箭头函数、this）
-### 内存机制
-### 事件循环（定时器etc）
-### 渲染原理（DOM/CSSOM、回流重绘）
-### 同源策略
+## JS
+### 面向对象
+- 常用设计模式
+- 构造函数、原型与继承
+- 使用ES6定义对象
+- 对象的枚举
+- 作用域与闭包
+- 变量提升
+### 异步编程
+- callback
+- Promise
+- generator
+- async/await
+### 事件循环
+- 浏览器EventLoop
+- Node EventLoop
 
-## 网络
-### HTTP/2.0
-- 状态码
-- 缓存
-### Websocket
-### WebWorker
-### 网络攻击
 
 ## CSS
 ### BFC
 ### 垂直居中
-### 自适应布局的实现
+### 自适应方案
 
-## 动画
-### requestAnimationFrame
+## 前端工程化
+### CSS预/后处理器
+### 模块化
+- common.js
+- require.js
+- es6 module
+### webpack
+- webpack编译原理、构建流程、热更新原理
+- loader/plugin
+- CodeSplit
+- Treeshark
+
+## 主流框架
+### React
+- 生命周期
+- Diff算法
+- Redux状态存储
+- React-Router路由管理
+- 跨组件通信（事件机制）
+
+### Vue
+- 生命周期
+- Diff算法
+- 跨组件通信（事件机制）
+- computed原理
+- watcher原理
+
+
+## 计算机网络
+### HTTP/2.0
+- http状态码
+- post/get请求
+- 跨域
+### 网络攻击
+### 浏览器
+- 缓存
+- 本地存储
 
 ## 性能优化
 ### 评判性能的标准
@@ -66,33 +92,5 @@ javascript指南：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide
 - 服务端渲染
 - 节流与防抖
 
-## 前端工程化
-### CSS预/后编译器
-### 热启动
-### SourceMap
 
-## React
-### 生命周期
-### Diff算法
-### Redux状态存储
-### 路由管理
-### 跨组件通信（事件机制）
-### 插件
-
-## Vue
-### 生命周期
-### Diff算法
-### mixin
-### 数据绑定
-### 跨组件通信（事件机制）
-### computed原理
-### watcher原理
-
-## 工具
-### Git
-### Nginx
-
-## 其他
-### 字符集与编码
-http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html
-### md5
+## 数据结构和算法
