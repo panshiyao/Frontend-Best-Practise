@@ -4,8 +4,7 @@
 ## JS
 ### 面向对象
 - 常用设计模式
-- 构造函数、原型与继承
-- 使用ES6定义对象
+- ES6 Class
 - 对象的枚举
 - 作用域与闭包
 - 变量提升
@@ -24,6 +23,7 @@
 ### 垂直居中
 ### 自适应方案
 
+
 ## 前端工程化
 ### CSS预/后处理器
 ### 模块化
@@ -31,10 +31,15 @@
 - require.js
 - es6 module
 ### webpack
-- webpack编译原理、构建流程、热更新原理
-- loader/plugin
-- CodeSplit
+- 编译原理
+- 热更新
+- loader
+- plugin
+- CodeSpliting
 - Treeshark
+### Babel
+
+
 
 ## 主流框架
 ### React
@@ -61,6 +66,7 @@
 ### 浏览器
 - 缓存
 - 本地存储
+
 
 ## 性能优化
 ### 测试工具
