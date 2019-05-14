@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        requestAnimationFrame(() => {
+            var firstPaintTime = Date.now() - performance.timing.requestStart;
+            console.log('first paint time by raf: ', firstPaintTime);
+        })
+        window.onload = () => {
+            var firstPaintTime = window.chrome.loadTimes().firstPaintTime * 1000 - performance.timing.requestStart;
+            console.log('first paint time by chrome api: ', firstPaintTime);
+        }
+    </script>
+</head>
+
+<body>
+    <script>
+        var start = Date.now();
+        while(Date.now() - start < 3000){} // white screen
+    </script>
+    111
+</body>
+
+</html>

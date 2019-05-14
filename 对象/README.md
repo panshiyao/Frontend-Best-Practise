@@ -1,11 +1,22 @@
 # 对象
-## 概述
-《Javascript高级程序设计》介绍了JS创建对象的几种方式，最常用的是构造函数、原型混合模式/组合继承，作为基础知识不再赘述，能够画出实例/构造函数/原型的链式关系即可。作为进阶知识点，需要理解属性描述符，对象遍历，ES6 Class的实现，TypeScript声明对象的方法等高级用法。
-### 几种对象的声明方式
-#### Object.create(null)
-#### ES6的Class
-##### Class与传统创建对象的不同
-##### Class的实现（参考babel）
+## ES6 Class
+### Class的内部实现（参考babel）
+#### babel源码分析
+
+
+
+*参考文献：*
+- [!babel源码分析之一：AST生成](https://segmentfault.com/a/1190000019019014)
+- [ES6 Class是如何实现的？](https://juejin.im/post/5b0abc85f265da0dbd7a648a)
+#### ES6/ES5的继承及差别
+- ES6是先生成父对象的实例，子类实例基于父类实例构建；ES5是先生成子类的构造函数，基于子类构造函数构建。
+
+
+
+
+
+
+
 ### Map类型/WeakMap类型/Set对象介绍
 #### Map与Object的区别
 - Object的键均为Strings类型，在Map里键可以是任意类型。
