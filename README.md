@@ -35,6 +35,8 @@
 - loader/plugin
 - CodeSplit
 - Treeshark
+### babel
+- 如何编写一个babel插件？
 
 ## 主流框架
 ### React
@@ -70,10 +72,10 @@
 - gzip
 ### 加载优化
 - CodeSpliting
-- TreeShark
-- 懒加载、延迟加载、按需加载
-- 使用缓存
-- 离线应用
+- TreeShaking
+- lazy-load
+- 缓存
+- ServiceWorker
 ### 渲染优化
 - 骨架图
 - 服务端渲染
