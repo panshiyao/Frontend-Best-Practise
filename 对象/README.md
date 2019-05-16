@@ -65,8 +65,6 @@ const foo = Foo(); // TypeError: Class constructor Foo cannot be invoked without
 ```
 
 
-### TypeScript的对象声明方法
-
 ### Map/WeakMap/Set/WeakSet类型介绍
 #### Map与Object的区别
 - Object的键均为Strings类型，在Map里键可以是任意类型。
@@ -146,5 +144,4 @@ Object.defineProperty(someOne, 'name', {
 #### `for..of`的用法
 - for...in循环读取键名，for...of循环读取键值。
 - for...of循环调用遍历器接口，只返回具有数字索引的属性。
-### 常用的JS设计模式
 

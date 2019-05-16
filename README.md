@@ -4,11 +4,10 @@
 
 ## JS
 ### 面向对象
-- 常用设计模式
 - ES6 Class
+- Map/WeakMap/Set/..
 - 对象的枚举
-- 作用域与闭包
-- 变量提升
+- 属性描述符
 ### 异步编程
 - callback
 - Promise
