@@ -2,7 +2,7 @@
 高级前端进阶指南，记录成为高级前端所必须掌握的语言、网络、算法知识，前端工程化与主流框架的源码及实现。
 
 
-## JS
+## JS✨
 ### 面向对象
 - ES6 Class
 - Map/WeakMap/Set/..
@@ -24,7 +24,7 @@
 ### 自适应方案
 
 
-## 前端工程化
+## 前端工程化✨
 ### CSS预/后处理器
 ### 模块化
 - common.js
@@ -37,9 +37,11 @@
 - plugin
 - CodeSpliting
 - Treeshark
-
 ### babel
 - 如何编写一个babel插件？
+### TypeScript
+
+
 
 ## 主流框架
 ### React
