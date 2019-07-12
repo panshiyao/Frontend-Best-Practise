@@ -19,6 +19,10 @@
 - 虚拟DOM树
 - diff算法
 
+## 小程序
+- 登录流程解析
+
+
 ## 性能优化
 - CodeSplitting
 - Treeshark
