@@ -6,6 +6,7 @@
 - 模块化
 - 页面的渲染、回流和重绘
 - 浏览器的事件循环机制
+- 强缓存与协商缓存
 - 跨域
 - promise vs async
 - 暂时性死区
@@ -49,6 +50,8 @@
 - Treeshark
 - 骨架屏的实现
 - SSR
+- Webp
+- ServiceWorker
 
 ## 数据库
 
