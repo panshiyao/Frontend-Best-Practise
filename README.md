@@ -3,7 +3,7 @@
 
 ## JS
 - ES6 Class
-- esm静态模块与TreeShaking的一切
+- esm：静态模块与TreeShaking的一切
 - 渲染、回流和重绘
 - 浏览器的事件循环机制
 - 强缓存与协商缓存
@@ -40,6 +40,7 @@
 
 ### Redux
 ### React-Router
+
 
 ## 小程序
 - 登录流程解析
