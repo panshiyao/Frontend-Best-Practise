@@ -2,12 +2,12 @@
 高级前端进阶指南，每周一篇文章，带你学习前端最新知识，阅读优秀框架源码，总结工程中的采坑经验。
 
 ## JS
-- ES6类声明
-- 模块化
-- 页面的渲染、回流和重绘
+- ES6 Class
+- esm静态模块与TreeShaking的一切
+- 渲染、回流和重绘
 - 浏览器的事件循环机制
 - 强缓存与协商缓存
-- 跨域
+- 跨域的老生常谈
 - promise vs async
 - 暂时性死区
 
@@ -17,8 +17,8 @@
 - 垂直居中
 
 ## Network
-- HTTP2.0
-- TCP/IP 5层协议
+- HTTP2.0秀在哪？
+- TCP/IP | OSI协议
 
 ## Webpack
 - webpack的生命周期
@@ -47,10 +47,9 @@
 
 ## 性能优化
 - CodeSplitting
-- Treeshark
-- 骨架屏的实现
-- SSR
-- Webp
+- Tree shaking
+- Skeleton vs Prerender
+- SSR/同构
 - ServiceWorker
 
 ## 数据库
@@ -59,6 +58,7 @@
 ## 测试
 - 自动化测试
 - 端到端测试
+
 
 ## 算法
 - 防抖和节流
