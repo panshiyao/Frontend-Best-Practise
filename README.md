@@ -16,6 +16,11 @@
 - 1px的前世今生
 - 垂直居中
 
+## 动画专题
+- canvas
+- lottie
+- css3 animation
+
 ## Network
 - HTTP2.0秀在哪？
 - TCP/IP | OSI协议
